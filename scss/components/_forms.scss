@@ -14,8 +14,7 @@
     }
 
     &__form {
-        display: flex;
-        align-items: center;
+        @extend %flex-centered;
     }
 
     &__field {
@@ -45,8 +44,7 @@
     }
 
     &__button {
-        display: flex;
-        justify-content: center;
+        @include flex-centered;
     }
 
     &__icon {

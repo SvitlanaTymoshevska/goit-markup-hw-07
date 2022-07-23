@@ -1,6 +1,5 @@
 .selection {
-    display: flex;
-    justify-content: center;
+    @include flex-centered;
     margin-bottom: 50px;
 
     &__button {

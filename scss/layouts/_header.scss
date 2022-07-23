@@ -3,13 +3,12 @@
 
     &__wraper, 
     &__nav-wraper,
-    &__nav, 
-    &__contacts {
-        display: flex;
-        align-items: center;
-    }
+    &__nav {
+        @include flex-centered;;
+    } 
 
     &__contacts {
+        @include flex-centered;;
         margin-left: auto;
     }
 
@@ -49,8 +48,7 @@
     }
 
     &__contact-link {
-        display: flex;
-        align-items: center;
+        @include flex-centered;
         color: var(--primary-color);
         transition-property: color;
         transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);

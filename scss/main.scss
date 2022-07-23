@@ -1,9 +1,16 @@
 @import './base/normalize';
 @import './base/varibles';
 @import './base/base';
-@import './components/logo.scss';
-@import './layouts/header.scss';
+
+@import './utils/hidden';
+@import './utils/mixins';
+
 @import './layouts/sections.scss';
+@import './layouts/header.scss';
+@import './layouts/footer';
+@import './layouts/modal';
+
+@import './components/logo.scss';
 @import './components/hero.scss';
 @import './components/button.scss';
 @import './components/features.scss';
@@ -13,6 +20,4 @@
 @import './components/clients';
 @import './components/project-selection';
 @import './components/projects';
-@import './layouts/footer';
 @import './components/forms';
-@import './layouts/modal';
